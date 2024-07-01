@@ -1,0 +1,19 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.example.travelblog
+productName: Travel Blog
+files:
+  - filter:
+      - MyBlog.html
+      - Bestplaces.html
+      - protect nature.html
+      - wonderfulNature.html
+      - main.js
+      - preload.js
+      - CSS.css
+      - images/
+win:
+  target: nsis
+  icon: images/nature.icon
+electronVersion: 31.1.0
